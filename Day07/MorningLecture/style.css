@@ -1,0 +1,39 @@
+/* Selector */
+/* Selectors tell us what we are trying to access */
+
+/* Selector option A) call on the name of the tag (ex: h1, p) */
+
+h1 {
+    /* Anything I type into here will affect the h1 tag */
+    color:rgb(46, 89, 245);
+}
+
+p {
+    background-color: rgb(249, 138, 98);
+    color: white;
+}
+
+/* Selector option B) class selector */
+/* Be sure to include a . before the name of the class */
+.purplebg {
+    background-color: rgb(163, 74, 248);
+}
+
+.pad {
+    padding: 10px;
+}
+
+/* Order DOES NOT MATTER in CSS */
+/* What DOES matter is the TYPE of selector */
+/* Each selector has a power level and depending on the power level that dictates the priority */
+
+/* Selector option C) ID selector */
+/* This is a special selector that is the most powerful and should only be used on single elements */
+
+#title {
+    color:aquamarine;
+}
+
+/* html tags < classes < ID */
+/*    1      <    10   < 100 */
+
